@@ -17,11 +17,41 @@
       <header>
         <div class="header__container">
           <h1>Le t&iuml; kiosque</h1>
+          <div class="localisation">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="map-marker-alt"
+              class="svg-inline--fa fa-map-marker-alt fa-w-12"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+            >
+              <defs>
+                <filter id="f1" x="0" y="0" width="200%" height="200%">
+                  <feOffset result="offOut" in="SourceAlpha" dx="15" dy="15" />
+                  <feGaussianBlur
+                    result="blurOut"
+                    in="offOut"
+                    stdDeviation="10"
+                  />
+                  <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+                </filter>
+              </defs>
+              <path
+                filter="url(#f1)"                
+                fill="white"
+                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+              ></path>
+            </svg>
+            <p>Bd Baille</p>
+          </div>
         </div>
       </header>
       <div class="carte__container">
         <div class="produits">
-          <a href="#">
+          <a href="pages/plats.html">
             <div class="carte carte__plats">
               <p>Nos Plats</p>
             </div>
@@ -33,8 +63,10 @@
           </a>
         </div>
         <footer>
-         <a href=""><p>Contactez-nous</p></a>
-         <a href=""><img src="img/facebook-brands.svg" alt="logo facebook"></a>
+          <a href=""><p>Contactez-nous</p></a>
+          <a href=""
+            ><img src="img/facebook-brands.svg" alt="logo facebook"
+          /></a>
         </footer>
       </div>
     </main>
