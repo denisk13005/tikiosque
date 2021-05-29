@@ -1,12 +1,14 @@
 @import "../base/reset";
+@import "../utils/mixins";
 body {
   max-width: 1440px;
   margin: auto;
   height: 100vh;
-  background-image: url(../img/papiers-peints-ibiscus.jpg.png), url(../img/papiers-peints-ibiscus.jpg.png), url(../img/liere.jpg) ;
+  background-image: url(../img/papiers-peints-ibiscus.jpg.png),
+    url(../img/papiers-peints-ibiscus.jpg.png), url(../img/liereSmart.jpg);
   background-repeat: no-repeat;
   background-position: right top, left top, center;
-  background-size: 80px, 80px,cover;
+  background-size: 80px, 80px, cover;
 }
 
 h1 {
@@ -36,8 +38,8 @@ section {
   height: 25%;
   font-family: "Pattaya";
   font-size: 1.2em;
-  p{
-      color: white;
+  p {
+    color: white;
   }
   &--rougail {
     width: 100%;
@@ -47,6 +49,7 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    @include text-apparition;
   }
   &--cari {
     width: 100%;
@@ -55,6 +58,7 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    @include text-apparition;
   }
   &--bouchon {
     width: 100%;
@@ -63,6 +67,7 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    @include text-apparition;
   }
   &--achards {
     width: 100%;
@@ -71,6 +76,7 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    @include text-apparition;
   }
   &--massale {
     width: 100%;
@@ -79,6 +85,7 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    @include text-apparition;
   }
   &--jdf {
     width: 100%;
@@ -87,5 +94,6 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    @include text-apparition;
   }
 }

@@ -43,10 +43,10 @@ body {
   max-width: 1440px;
   margin: auto;
   height: 100vh;
-  background-image: url(../img/papiers-peints-ibiscus.jpg.png), url(../img/papiers-peints-ibiscus.jpg.png), url(../img/liere.jpg);
+  background-image: url(../img/papiers-peints-ibiscus.jpg.png), url(../img/papiers-peints-ibiscus.jpg.png), url(../img/liereSmart.jpg);
   background-repeat: no-repeat;
   background-position: right top, left top, center;
-  background-size: 80px, 80px,cover;
+  background-size: 80px, 80px, cover;
 }
 
 h1 {
@@ -105,6 +105,31 @@ section {
   border-radius: 15px;
 }
 
+.plat--rougail p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+  line-height: 200px;
+}
+
+.plat--rougail:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.plat--rougail:not(:hover) p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
 .plat--cari {
   width: 100%;
   height: 100%;
@@ -112,6 +137,31 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+}
+
+.plat--cari p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+  line-height: 200px;
+}
+
+.plat--cari:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.plat--cari:not(:hover) p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 
 .plat--bouchon {
@@ -123,6 +173,31 @@ section {
   border-radius: 15px;
 }
 
+.plat--bouchon p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+  line-height: 200px;
+}
+
+.plat--bouchon:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.plat--bouchon:not(:hover) p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
 .plat--achards {
   width: 100%;
   height: 100%;
@@ -130,6 +205,31 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+}
+
+.plat--achards p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+  line-height: 200px;
+}
+
+.plat--achards:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.plat--achards:not(:hover) p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 
 .plat--massale {
@@ -141,6 +241,31 @@ section {
   border-radius: 15px;
 }
 
+.plat--massale p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+  line-height: 200px;
+}
+
+.plat--massale:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.plat--massale:not(:hover) p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
 .plat--jdf {
   width: 100%;
   height: 100%;
@@ -148,5 +273,30 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+}
+
+.plat--jdf p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  text-align: center;
+  line-height: 200px;
+}
+
+.plat--jdf:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.plat--jdf:not(:hover) p {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 /*# sourceMappingURL=stylePlats.css.map */
