@@ -1,5 +1,6 @@
 @import "../base/reset";
 @import "../utils/mixins";
+@import "../utils/keyframes";
 body {
   max-width: 1440px;
   margin: auto;
@@ -18,6 +19,7 @@ h1 {
   padding-top: 10px;
   text-decoration: underline;
   color: white;
+  animation: apparition 1s ease-in-out forwards;
 }
 section {
   display: flex;
@@ -49,7 +51,9 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    transform: scale(0);
     @include text-apparition;
+    animation: apparition 1s .7s ease-in-out forwards;
   }
   &--cari {
     width: 100%;
@@ -58,7 +62,9 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    transform: scale(0);
     @include text-apparition;
+    animation: apparition 1s .9s ease-in-out forwards;
   }
   &--bouchon {
     width: 100%;
@@ -67,7 +73,9 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    transform: scale(0);
     @include text-apparition;
+    animation: apparition 1s 1.1s ease-in-out forwards;
   }
   &--achards {
     width: 100%;
@@ -76,7 +84,9 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    transform: scale(0);
     @include text-apparition;
+    animation: apparition 1s .7s ease-in-out forwards;
   }
   &--massale {
     width: 100%;
@@ -85,7 +95,9 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    transform: scale(0);
     @include text-apparition;
+    animation: apparition 1s .9s ease-in-out forwards;
   }
   &--jdf {
     width: 100%;
@@ -94,6 +106,8 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    transform: scale(0);
     @include text-apparition;
+    animation: apparition 1s 1.1s ease-in-out forwards;
   }
 }

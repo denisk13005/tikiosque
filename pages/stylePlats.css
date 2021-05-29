@@ -39,6 +39,28 @@ table {
   border-spacing: 0;
 }
 
+@-webkit-keyframes apparition {
+  from {
+    -webkit-transform: scale(0) rotate(0);
+            transform: scale(0) rotate(0);
+  }
+  to {
+    -webkit-transform: scale(1) rotate(720deg);
+            transform: scale(1) rotate(720deg);
+  }
+}
+
+@keyframes apparition {
+  from {
+    -webkit-transform: scale(0) rotate(0);
+            transform: scale(0) rotate(0);
+  }
+  to {
+    -webkit-transform: scale(1) rotate(720deg);
+            transform: scale(1) rotate(720deg);
+  }
+}
+
 body {
   max-width: 1440px;
   margin: auto;
@@ -56,6 +78,8 @@ h1 {
   padding-top: 10px;
   text-decoration: underline;
   color: white;
+  -webkit-animation: apparition 1s ease-in-out forwards;
+          animation: apparition 1s ease-in-out forwards;
 }
 
 section {
@@ -103,6 +127,10 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: apparition 1s .7s ease-in-out forwards;
+          animation: apparition 1s .7s ease-in-out forwards;
 }
 
 .plat--rougail p {
@@ -137,6 +165,10 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: apparition 1s .9s ease-in-out forwards;
+          animation: apparition 1s .9s ease-in-out forwards;
 }
 
 .plat--cari p {
@@ -171,6 +203,10 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: apparition 1s 1.1s ease-in-out forwards;
+          animation: apparition 1s 1.1s ease-in-out forwards;
 }
 
 .plat--bouchon p {
@@ -205,6 +241,10 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: apparition 1s .7s ease-in-out forwards;
+          animation: apparition 1s .7s ease-in-out forwards;
 }
 
 .plat--achards p {
@@ -239,6 +279,10 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: apparition 1s .9s ease-in-out forwards;
+          animation: apparition 1s .9s ease-in-out forwards;
 }
 
 .plat--massale p {
@@ -273,6 +317,10 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: apparition 1s 1.1s ease-in-out forwards;
+          animation: apparition 1s 1.1s ease-in-out forwards;
 }
 
 .plat--jdf p {
