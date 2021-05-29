@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAC1B;;AAED,AAAA,EAAE,CAAA;EACE,WAAW,EAAE,SAAS;EACtB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "stylePlats.scss"
+    ],
+    "names": [],
+    "file": "stylePlats.css"
+}
