@@ -65,15 +65,15 @@ body {
   max-width: 1440px;
   margin: auto;
   height: 100vh;
-  background-image: url(../img/papiers-peints-ibiscus.jpg.png), url(../img/papiers-peints-ibiscus.jpg.png), url(../img/liereSmart.jpg);
+  background-image: url(../img/papiers-peints-ibiscus.jpg.png), url(../img/papiers-peints-ibiscus-retourne.jpg.png), url(../img/fondPlatsSmart.jpg);
   background-repeat: no-repeat;
   background-position: right top, left top, center;
-  background-size: 80px, 80px, cover;
+  background-size: 60px, 60px, cover;
 }
 
 h1 {
   font-family: "Pattaya";
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   padding-top: 10px;
   text-decoration: underline;

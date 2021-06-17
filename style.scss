@@ -91,13 +91,10 @@ a{
   color: white;
 }
 footer{
-  width: 80%;
-  margin: auto;
-  bottom: 0;
-  color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+
   p{
     font-size: 25px;
     &:hover{
