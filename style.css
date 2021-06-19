@@ -108,15 +108,15 @@ header .localisation svg {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  margin: auto;
   margin-top: 100px;
   padding-top: 20px;
+  border: 1px solid red;
 }
 
 .carte {
   width: 90%;
+  max-width: 600px;
   height: 230px;
-  margin: auto;
   margin-bottom: 20px;
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 10px white;
@@ -159,10 +159,41 @@ header .localisation svg {
   background-position: center;
 }
 
+.carte__salades:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+.carte__salades:not(:hover) {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+@media (min-width: 800px) {
+  .carte__salades {
+    margin: auto;
+  }
+}
+
 .carte__huiles {
   background-image: url(img/huile-essentielle-bourbon.jpg_720_1000_2.jpg);
   background-size: cover;
   background-position: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 800px) {
+  .carte__huiles {
+    float: right;
+  }
 }
 
 .carte__huiles:hover {
