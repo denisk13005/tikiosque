@@ -5,19 +5,17 @@ html {
   width: 100%;
 }
 body {
-  
   width: 100%;
   background-image: url(img/background-mobile.jpg);
   background-size: cover;
-  background-repeat: no-repeat;  
-  @media(min-width: 800px){
+  background-repeat: no-repeat;
+  @media (min-width: 800px) {
     background: url(img/background_img_resize.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
 }
 main {
-  
   max-width: 1440px;
   width: 100%;
   font-family: "Pattaya";
@@ -33,110 +31,117 @@ header {
   top: 2%;
   text-shadow: 2px 2px 5px black;
   white-space: nowrap;
-  .localisation{
+  .localisation {
     display: flex;
-    font-size: .4em;
+    font-size: 0.4em;
     justify-content: center;
-    svg{
+    svg {
       width: 16px;
       margin-right: 10px;
     }
   }
 }
+.produits {
+  border: 1px solid red;
+  height: 750px;
+  position: relative;
+}
 .carte__container {
-  display: flex;
-  flex-direction: column;
+  margin: auto;
   width: 90%;
-  margin-top: 100px; 
+  margin: auto;
+  margin-top: 100px;
   padding-top: 20px;
-
 }
 .carte {
   width: 90%;
   max-width: 600px;
   height: 230px;
   margin-bottom: 20px;
-  border-radius: 15px;  
+  border-radius: 15px;
   box-shadow: 5px 5px 10px white;
-  p{
+  @media (max-width: 800px) {
+    margin: 20px auto 20px auto;
+  }
+  p {
     font-size: 1.6em;
     padding-top: 200px;
     padding-left: 15px;
   }
-  &__plats{
-    background-image:url(img/plats.jpg);
+  &__plats {
+    background-image: url(img/plats.jpg);
     background-size: cover;
     background-position: top;
-    &:hover{
+    &:hover {
       transform: scale(1.05);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
-    &:not(:hover){
+    &:not(:hover) {
       transform: scale(1);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
   }
-  &__salades{
-    background-image:url(img/avoir-de-belle-salades_double-v2.jpg);
+  &__salades {
+    background-image: url(img/avoir-de-belle-salades_double-v2.jpg);
     background-size: cover;
     background-position: center;
-    &:hover{
+    margin: auto;
+    &:hover {
       transform: scale(1.05);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
-    &:not(:hover){
+    &:not(:hover) {
       transform: scale(1);
-      transition: transform .4s ease-in-out;
-    }
-    @media(min-width: 800px){
-      margin: auto;
+      transition: transform 0.4s ease-in-out;
     }
   }
-  &__huiles{
+  &__huiles {
     background-image: url(img/huile-essentielle-bourbon.jpg_720_1000_2.jpg);
     background-size: cover;
-    background-position:center;
-    margin-top: 20px;
-    @media(min-width:800px){
-      float: right;
-      
+    background-position: center;
+    @media (min-width: 800px) {
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
-    &:hover{
+
+    &:hover {
       transform: scale(1.05);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
-    &:not(:hover){
+    &:not(:hover) {
       transform: scale(1);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
-  } 
+  }
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20px;
 
-  p{
+  p {
     font-size: 25px;
-    &:hover{
+    &:hover {
       text-decoration: underline;
     }
   }
-  img{
+  img {
     color: white;
     width: 40px;
-    &:hover{
+    &:hover {
       transform: scale(1.1);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
-    &:not(:hover){
+    &:not(:hover) {
       transform: scale(1);
-      transition: transform .4s ease-in-out;
+      transition: transform 0.4s ease-in-out;
     }
   }
 }

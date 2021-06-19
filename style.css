@@ -88,7 +88,7 @@ header .localisation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: .4em;
+  font-size: 0.4em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -99,15 +99,16 @@ header .localisation svg {
   margin-right: 10px;
 }
 
+.produits {
+  border: 1px solid red;
+  height: 750px;
+  position: relative;
+}
+
 .carte__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin: auto;
   width: 90%;
+  margin: auto;
   margin-top: 100px;
   padding-top: 20px;
 }
@@ -120,6 +121,12 @@ header .localisation svg {
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 10px white;
           box-shadow: 5px 5px 10px white;
+}
+
+@media (max-width: 800px) {
+  .carte {
+    margin: 20px auto 20px auto;
+  }
 }
 
 .carte p {
@@ -137,80 +144,76 @@ header .localisation svg {
 .carte__plats:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .carte__plats:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .carte__salades {
   background-image: url(img/avoir-de-belle-salades_double-v2.jpg);
   background-size: cover;
   background-position: center;
+  margin: auto;
 }
 
 .carte__salades:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .carte__salades:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
-}
-
-@media (min-width: 800px) {
-  .carte__salades {
-    margin: auto;
-  }
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .carte__huiles {
   background-image: url(img/huile-essentielle-bourbon.jpg_720_1000_2.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: 20px;
 }
 
 @media (min-width: 800px) {
   .carte__huiles {
-    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
 
 .carte__huiles:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .carte__huiles:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 a {
@@ -227,6 +230,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 footer p {
@@ -245,18 +249,18 @@ footer img {
 footer img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 footer img:not(:hover) {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */
