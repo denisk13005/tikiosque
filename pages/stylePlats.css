@@ -89,13 +89,14 @@ section {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 90%;
-  height: 500px;
+  height: 85%;
   margin: auto;
   margin-top: 40px;
 }
 
 .plats__container {
   width: 40%;
+  max-width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,6 +114,13 @@ section {
   height: 25%;
   font-family: "Pattaya";
   font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 800px) {
+  .plat {
+    height: 25%;
+  }
 }
 
 .plat p {
@@ -158,6 +166,12 @@ section {
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 
+@media (min-width: 800px) {
+  .plat--rougail {
+    background-image: url(../img/plats/rougail.png);
+  }
+}
+
 .plat--cari {
   width: 100%;
   height: 100%;
@@ -194,6 +208,12 @@ section {
   transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out;
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+@media (min-width: 800px) {
+  .plat--cari {
+    background-image: url(../img/plats/cari.jpg);
+  }
 }
 
 .plat--bouchon {
@@ -234,6 +254,12 @@ section {
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 
+@media (min-width: 800px) {
+  .plat--bouchon {
+    background-image: url(../img/plats/bouchons.jpg);
+  }
+}
+
 .plat--achards {
   width: 100%;
   height: 100%;
@@ -270,6 +296,12 @@ section {
   transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out;
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+@media (min-width: 800px) {
+  .plat--achards {
+    background-image: url(../img/plats/Achards.jpg);
+  }
 }
 
 .plat--massale {
@@ -310,6 +342,12 @@ section {
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 
+@media (min-width: 800px) {
+  .plat--massale {
+    background-image: url(../img/plats/massle.webp);
+  }
+}
+
 .plat--jdf {
   width: 100%;
   height: 100%;
@@ -346,5 +384,15 @@ section {
   transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out;
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+@media (min-width: 800px) {
+  .plat--jdf {
+    background-image: url(../img/plats/jus.jpg);
+  }
+}
+
+.plat--jdf + p {
+  white-space: nowrap;
 }
 /*# sourceMappingURL=stylePlats.css.map */
