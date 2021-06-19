@@ -1,5 +1,6 @@
 @import "base/reset";
 @import "utils/variables";
+@import "pages/media";
 html {
   width: 100%;
 }
@@ -8,7 +9,12 @@ body {
   width: 100%;
   background-image: url(img/background-mobile.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
+  @media(min-width: 800px){
+    background: url(img/background_img_resize.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 main {
   
@@ -70,6 +76,11 @@ header {
       transform: scale(1);
       transition: transform .4s ease-in-out;
     }
+  }
+  &__salades{
+    background-image:url(img/avoir-de-belle-salades_double-v2.jpg);
+    background-size: cover;
+    background-position: center;
   }
   &__huiles{
     background-image: url(img/huile-essentielle-bourbon.jpg_720_1000_2.jpg);

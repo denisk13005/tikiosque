@@ -39,6 +39,13 @@ table {
   border-spacing: 0;
 }
 
+@media (min-width: 800px) {
+  body {
+    background-image: url(../img/background_img_resize.jpg);
+    z-index: 1000;
+  }
+}
+
 html {
   width: 100%;
 }
@@ -48,6 +55,14 @@ body {
   background-image: url(img/background-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 800px) {
+  body {
+    background: url(img/background_img_resize.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 main {
@@ -136,6 +151,12 @@ header .localisation svg {
   transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out;
   transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+.carte__salades {
+  background-image: url(img/avoir-de-belle-salades_double-v2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .carte__huiles {
