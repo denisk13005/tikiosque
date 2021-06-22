@@ -35,6 +35,9 @@ header {
     display: flex;
     font-size: 0.4em;
     justify-content: center;
+    &:hover{
+      text-decoration: underline;
+    }
     svg {
       width: 16px;
       margin-right: 10px;
@@ -125,8 +128,9 @@ footer {
   align-items: center;
   margin-top: 20px;
 
-  p {
+  a {
     font-size: 25px;
+    margin-left: 0;
     &:hover {
       text-decoration: underline;
     }

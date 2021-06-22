@@ -94,6 +94,10 @@ header .localisation {
           justify-content: center;
 }
 
+header .localisation:hover {
+  text-decoration: underline;
+}
+
 header .localisation svg {
   width: 16px;
   margin-right: 10px;
@@ -232,11 +236,12 @@ footer {
   margin-top: 20px;
 }
 
-footer p {
+footer a {
   font-size: 25px;
+  margin-left: 0;
 }
 
-footer p:hover {
+footer a:hover {
   text-decoration: underline;
 }
 

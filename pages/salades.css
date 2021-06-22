@@ -1,11 +1,52 @@
 body {
+  background-image: url(../img/bois1920x1080.jpg);
   width: 90%;
-  border: 1px solid red;
   margin: auto;
+  font-family: 'Pattaya';
+  color: white;
 }
 
-h1 {
+header {
+  border-bottom: 1px solid white;
+}
+
+h1, h2 {
   text-align: center;
-  font-family: 'Pattaya';
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section {
+  margin: 50px 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 400px;
+  padding-left: 20px;
+}
+
+aside {
+  width: 400px;
+  height: 600px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+aside h2 {
+  border-bottom: 1px solid white;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+aside p {
+  width: 100%;
+  text-align: center;
+  font-size: 2.2em;
 }
 /*# sourceMappingURL=salades.css.map */
