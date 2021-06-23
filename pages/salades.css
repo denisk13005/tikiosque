@@ -35,6 +35,10 @@ section {
   padding-left: 20px;
 }
 
+section li {
+  list-style-type: square;
+}
+
 @media (max-width: 650px) {
   section {
     margin-left: 0;
