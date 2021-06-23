@@ -1,6 +1,8 @@
 body{
     background-image:url(../img/bois1920x1080.jpg);
+    background-size: cover;    
     width: 90%;
+    max-width: 1440px;
     margin: auto;
     font-family: 'Pattaya';
     color: white;
@@ -16,6 +18,7 @@ h1,h2{
 main{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 section{
     margin : 50px 50px;
