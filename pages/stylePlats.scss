@@ -43,11 +43,12 @@ section {
   font-family: "Pattaya";
   font-size: 1.2em;
   margin-bottom: 25px;
+  position: relative;
   @media(min-width: 800px){
     height: 25%;
   }
   p {
-    color: white;
+    color: rgb(255, 255, 255);
     
   }  
   &--rougail {
