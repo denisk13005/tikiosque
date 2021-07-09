@@ -1,92 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="icon" type="image/ico" href="img/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <main>
-      <header>
-        <div class="header__container">
-          <h1>Le t&iuml; kiosque</h1>
-          <a
-            href="https://www.google.fr/maps/@43.2865357,5.3861572,3a,75y,181.06h,83.89t/data=!3m6!1e1!3m4!1s0wgDjTLZUoUokzse8X93vg!2e0!7i13312!8i6656"
-          >
-            <div class="localisation">
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fas"
-                data-icon="map-marker-alt"
-                class="svg-inline--fa fa-map-marker-alt fa-w-12"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 512"
-              >
-                <defs>
-                  <filter id="f1" x="0" y="0" width="200%" height="200%">
-                    <feOffset
-                      result="offOut"
-                      in="SourceAlpha"
-                      dx="15"
-                      dy="15"
-                    />
-                    <feGaussianBlur
-                      result="blurOut"
-                      in="offOut"
-                      stdDeviation="10"
-                    />
-                    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
-                  </filter>
-                </defs>
-                <path
-                  filter="url(#f1)"
-                  fill="white"
-                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                ></path>
-              </svg>
-              <p>Bd Baille</p>
-            </div>
-          </a>
-        </div>
-      </header>
-      <div class="carte__container">
-        <div class="produits">
-          <a href="pages/plats.html">
-            <div class="carte carte__plats">
-              <p>Nos Plats Traiteur</p>
-            </div>
-          </a>
-          <a href="pages/salades.html" class="salade">
-            <div class="carte carte__salades">
-              <p>Nos Salades</p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="carte carte__huiles">
-              <p>Nos Huiles Essentielles</p>
-            </div>
-          </a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Restaurant de restauration rapide avec spécialités créoles, salades, café et jus de fruits frais">  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="icon" type="image/ico" href="img/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="header__container">
+        <h1>Le t&iuml; kiosque</h1>
+        <a
+          href="https://www.google.fr/maps/@43.2865357,5.3861572,3a,75y,181.06h,83.89t/data=!3m6!1e1!3m4!1s0wgDjTLZUoUokzse8X93vg!2e0!7i13312!8i6656">
+          <div class="localisation">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt"
+              class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512">
+              <defs>
+                <filter id="f1" x="0" y="0" width="200%" height="200%">
+                  <feOffset result="offOut" in="SourceAlpha" dx="15" dy="15" />
+                  <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+                  <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+                </filter>
+              </defs>
+              <path filter="url(#f1)" fill="white"
+                d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+              </path>
+            </svg>
+            <p>Bd Baille</p>
+          </div>
+        </a>
       </div>
-      <footer>
-        <a href="callto:0749293595">Contactez-nous</a>
+    </header>
+    <div class="carte__container">
+      <div class="produits">
+        <a href="pages/plats.html">
+          <div class="carte carte__plats">
+            <p>Nos Plats Traiteur</p>
+          </div>
+        </a>
+        <a href="pages/salades.html" class="salade">
+          <div class="carte carte__salades">
+            <p>Nos Salades</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="carte carte__huiles">
+            <p>Nos Huiles Essentielles</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <a href="callto:0749293595">Contactez-nous</a>
 
-        <a href="https://www.facebook.com/lulu.tuktuk.3"
-          ><img src="img/facebook-brands.svg" alt="logo facebook"
-        /></a>
-      </footer>
-    </main>
-  </body>
+      <a href="https://www.facebook.com/lulu.tuktuk.3"><img src="img/facebook-brands.svg" alt="logo facebook" /></a>
+    </footer>
+  </main>
+</body>
+
 </html>

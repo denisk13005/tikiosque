@@ -115,6 +115,7 @@ section {
   font-family: "Pattaya";
   font-size: 1.2em;
   margin-bottom: 25px;
+  position: relative;
 }
 
 @media (min-width: 800px) {
@@ -142,15 +143,14 @@ section {
 }
 
 .plat--rougail p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  text-align: center;
-  line-height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 6px;
 }
 
 .plat--rougail:hover p {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateX(10%);
+          transform: scale(1.1) translateX(10%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -158,12 +158,12 @@ section {
 }
 
 .plat--rougail:not(:hover) p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transform: scale(0) translateX(10%);
+          transform: scale(0) translateX(10%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -186,15 +186,14 @@ section {
 }
 
 .plat--cari p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  text-align: center;
-  line-height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 6px;
 }
 
 .plat--cari:hover p {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateX(10%);
+          transform: scale(1.1) translateX(10%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -202,12 +201,12 @@ section {
 }
 
 .plat--cari:not(:hover) p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transform: scale(0) translateX(10%);
+          transform: scale(0) translateX(10%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -230,15 +229,14 @@ section {
 }
 
 .plat--bouchon p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  text-align: center;
-  line-height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 6px;
 }
 
 .plat--bouchon:hover p {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateX(10%);
+          transform: scale(1.1) translateX(10%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -246,12 +244,12 @@ section {
 }
 
 .plat--bouchon:not(:hover) p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transform: scale(0) translateX(10%);
+          transform: scale(0) translateX(10%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -274,15 +272,14 @@ section {
 }
 
 .plat--achards p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  text-align: center;
-  line-height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 6px;
 }
 
 .plat--achards:hover p {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateX(10%);
+          transform: scale(1.1) translateX(10%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -290,12 +287,12 @@ section {
 }
 
 .plat--achards:not(:hover) p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transform: scale(0) translateX(10%);
+          transform: scale(0) translateX(10%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -318,15 +315,14 @@ section {
 }
 
 .plat--massale p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  text-align: center;
-  line-height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 6px;
 }
 
 .plat--massale:hover p {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateX(10%);
+          transform: scale(1.1) translateX(10%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -334,12 +330,12 @@ section {
 }
 
 .plat--massale:not(:hover) p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transform: scale(0) translateX(10%);
+          transform: scale(0) translateX(10%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 @media (min-width: 800px) {
@@ -362,15 +358,14 @@ section {
 }
 
 .plat--jdf p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  text-align: center;
-  line-height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 6px;
 }
 
 .plat--jdf:hover p {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) translateX(10%);
+          transform: scale(1.1) translateX(10%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -378,12 +373,12 @@ section {
 }
 
 .plat--jdf:not(:hover) p {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform .4s ease-in-out;
-  transition: -webkit-transform .4s ease-in-out;
-  transition: transform .4s ease-in-out;
-  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-transform: scale(0) translateX(10%);
+          transform: scale(0) translateX(10%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 @media (min-width: 800px) {
